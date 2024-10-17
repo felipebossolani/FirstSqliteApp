@@ -1,0 +1,60 @@
+# Compiled Binary
+/bin/
+/obj/
+
+# Rider Specific Files
+.idea/
+*.sln.iml
+*.sln.DotSettings
+*.sln.DotSettings.user
+/.idea/
+/.Rider/
+
+# Visual Studio Specific Files
+.vscode/
+.vs/
+*.csproj.user
+*.csproj.DotSettings
+*.csproj.DotSettings.user
+
+# User-Specific Files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Build Directories
+out/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of the automatic restore
+**/packages/*
+!**/packages/build/
+
+# Backup & Report Files
+*.bak
+*.swp
+*.temp
+*.tmp
+*.cache
+*.orig
+
+# Azure DevOps
+.project
+
+# Mac OS Generated Files
+.DS_Store
+
+# Windows Image Thumbnails
+Thumbs.db
+
+# Rider & Visual Studio Temp Files
+_ReSharper*/
+*/_ReSharper.*
+
+test_results/
+**/*.dotCover
